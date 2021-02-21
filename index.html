@@ -1,0 +1,922 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Med Lights</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link href="assets/images/favicon.ico" type="img/x-icon" rel="shortcut icon">
+    <!-- All css files are included here. -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/iconfont.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/helper.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <!-- Modernizr JS -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <div id="main-wrapper">
+
+        <!--Header section start-->
+        <header class="header header-transparent header-sticky header-absolute d-lg-block d-none">
+            <div class="header-deafult-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2 col-md-4 col-12">
+                            <!--Logo Area Start-->
+                            <div class="logo-area">
+                                <a href="index.html"><img src="./assets/images/logo.svg" alt="" width="100%" height="100%"></a>
+                            </div>
+                            <!--Logo Area End-->
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-4 d-none d-lg-block col-12">
+                            <!--Header Menu Area Start-->
+                            <div class="header-menu-area text-center">
+                                <nav class="main-menu">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">A propos</a> </li>
+                                        <li><a href="shop.html">Galerie</a></li>
+                                        <li><a href="shop.html">Catalogue</a></li>
+                                        <li><a href="blog.html">Pages</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="blog.html">Blog Three Column</a></li>
+                                                <li><a href="blog-two-column.html">Blog Two Column</a></li>
+                                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                                <li><a href="blog-details-gallery.html">Blog Details Gallery</a></li>
+                                                <li><a href="blog-details-audio.html">Blog Details Audio</a></li>
+                                                <li><a href="blog-details-video.html">Blog Details Video</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!--Header Menu Area End-->
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-5 col-12">
+                            <!--Header Search And Mini Cart Area Start-->
+                            <div class="header-search-cart-area">
+                                <ul>
+                                    <li><a class="header-search-toggle" href="#"><i class="flaticon-magnifying-glass"></i></a></li>
+                                    
+                                 
+                                </ul>
+                            </div>
+                            <!--Header Search And Mini Cart Area End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--Header section end-->
+
+        <!--Header Mobile section start-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-bottom menu-right">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="header-mobile-navigation d-block d-lg-none">
+                                <div class="row align-items-center">
+                                    <div class="col-6 col-md-6">
+                                        <div class="header-logo">
+                                            <a href="index.html">
+                                                <img src="./assets/images/logo.svg" alt="" width="100%" height="100%" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6">
+                                        <div class="mobile-navigation text-right">
+                                            <div class="header-icon-wrapper">
+                                                <ul class="icon-list justify-content-end">
+                                                   
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="mobile-menu-icon" id="mobile-menu-trigger"><i class="fa fa-bars"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Mobile Menu start-->
+                    <div class="row">
+                        <div class="col-12 d-flex d-lg-none">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                    <!--Mobile Menu end-->
+
+                </div>
+            </div>
+        </header>
+        <!--Header Mobile section end-->
+
+        <!-- Offcanvas Menu Start -->
+        <div class="offcanvas-mobile-menu d-block d-lg-none" id="offcanvas-mobile-menu">
+            <a href="javascript:void(0)" class="offcanvas-menu-close" id="offcanvas-menu-close-trigger">
+                <i class="fa fa-times"></i>
+            </a>
+
+            <div class="offcanvas-wrapper">
+
+                <div class="offcanvas-inner-content">
+                    <div class="offcanvas-mobile-search-area">
+                        <form action="#">
+                            <input type="search" placeholder="Search ...">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <nav class="offcanvas-navigation">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">A propos</a> </li>
+                            <li><a href="shop.html">Galerie</a></li>
+                            <li><a href="shop.html">Catalogue</a></li>
+                            <li><a href="blog.html">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog.html">Blog Three Column</a></li>
+                                    <li><a href="blog-two-column.html">Blog Two Column</a></li>
+                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog-details-gallery.html">Blog Details Gallery</a></li>
+                                    <li><a href="blog-details-audio.html">Blog Details Audio</a></li>
+                                    <li><a href="blog-details-video.html">Blog Details Video</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                   
+
+                    <div class="offcanvas-widget-area">
+                        <div class="off-canvas-contact-widget">
+                            <div class="header-contact-info">
+                                <ul class="header-contact-info-list">
+                                    <li><i class="ion-android-phone-portrait"></i> <a href="tel://12452456012">(1245) 2456 012 </a></li>
+                                    <li><i class="ion-android-mail"></i> <a href="mailto:info@yourdomain.com">info@yourdomain.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--Off Canvas Widget Social Start-->
+                        <div class="off-canvas-widget-social">
+                            <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                            <a href="#" title="Youtube"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#" title="Vimeo"><i class="fa fa-vimeo-square"></i></a>
+                        </div>
+                        <!--Off Canvas Widget Social End-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Offcanvas Menu End -->
+
+        <!-- main-search start -->
+        <div class="main-search-active">
+            <div class="sidebar-search-icon">
+                <button class="search-close"><i class="fa fa-times"></i></button>
+            </div>
+            <div class="sidebar-search-input">
+                <form action="#">
+                    <div class="form-search">
+                        <input id="search" class="input-text" value="" placeholder="" type="search">
+                        <button>
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <p class="form-description">Hit enter to search or ESC to close</p>
+            </div>
+        </div>
+        <!-- main-search start -->
+
+
+
+
+        <!--slider section start-->
+        <div class="hero-section section position-relative">
+            <div class="hero-slider section">
+
+                <!--Hero Item start-->
+                <div class="hero-item large-height bg-image" data-bg="assets/images/hero/hero-3.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <!--Hero Content start-->
+                                <div class="hero-content-2 margin-top center">
+
+                                    <h2>PROFILUM LED LE</h2>
+                                        <a href="shop.html" class="btn">EN SAVOIR PLUS</a>
+
+                                </div>
+                                <!--Hero Content end-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Hero Item end-->
+
+                <!--Hero Item start-->
+                <div class="hero-item large-height bg-image" data-bg="assets/images/hero/hero-4.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <!--Hero Content start-->
+                                <div class="hero-content-2 margin-top center">
+
+                                    <h2>TUBALUX LED LE</h2>
+                                        <a href="shop.html" class="btn">EN SAVOIR PLUS</a>
+
+                                </div>
+                                <!--Hero Content end-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Hero Item end-->
+
+                  <!--Hero Item start-->
+                  <div class="hero-item large-height bg-image" data-bg="assets/images/hero/hero-5.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <!--Hero Content start-->
+                                <div class="hero-content-2 margin-top center">
+
+                                    <h2>OCEAN LED</h2>
+                                        <a href="shop.html" class="btn">EN SAVOIR PLUS</a>
+
+                                </div>
+                                <!--Hero Content end-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Hero Item end-->
+
+                  <!--Hero Item start-->
+                  <div class="hero-item large-height bg-image" data-bg="assets/images/hero/hero-6.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <!--Hero Content start-->
+                                <div class="hero-content-2 margin-top center">
+
+                                    <h2>PROLED</h2>
+                                        <a href="shop.html" class="btn">EN SAVOIR PLUS</a>
+
+                                </div>
+                                <!--Hero Content end-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Hero Item end-->
+
+                <!--Hero Item start-->
+                <div class="hero-item large-height bg-image" data-bg="assets/images/hero/hero-7.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <!--Hero Content start-->
+                                <div class="hero-content-2 margin-top center">
+
+                                    <h2>BELUX LED LE</h2>
+                                        <a href="shop.html" class="btn">EN SAVOIR PLUS</a>
+
+                                </div>
+                                <!--Hero Content end-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Hero Item end-->
+
+            </div>
+        </div>
+        <!--slider section end-->
+
+
+
+
+        
+
+
+        <!--Product section start-->
+        <div class="product-section section pt-70 pt-lg-50 pt-md-40 pt-sm-30 pt-xs-20 pb-55 pb-lg-35 pb-md-25 pb-sm-15 pb-xs-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section-title text-center mb-15">
+                            <h2>Nos Engagements</h2>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>   
+        </div>
+
+
+
+        
+        
+
+
+        <!--Features section start-->
+        <div class="features-section section pt-30 pt-lg-15 pt-md-0 pt-sm-0 pt-xs-15">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <!-- Single Feature Start -->
+                        <div class="single-feature mb-30">
+                            <div class="feature-image">
+                                <img src="./assets/images/icons/feature-1.png" class="img-fluid" alt="">
+                                
+                            </div>
+                            
+                            <div class="feature-content">
+                                <h4 class="title">LE SUR-MESURE</h4>
+                                <p class="short-desc">De l’esquisse au prototype, tout en maîtrisant l’aspect économique convenu, nous réalisons le luminaire SUR-MESURE dont vous avez rêvé pour votre projet! </p>
+                            </div>
+                        </div>
+                        <!-- Single Feature End -->
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <!-- Single Feature Start -->
+                        <div class="single-feature mb-30">
+                            <div class="feature-image">
+                                <img src="./assets/images/icons/feature-2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="title">L'APPUI PROJETS</h4>
+                                <p class="short-desc">A l’aide des informations techniques disponibles et des logiciels tel que « Dialux », nous sommes à même de participer à l’élaboration de vos projets en tant que partenaire technique.</p>
+                            </div>
+                        </div>
+                        <!-- Single Feature End -->
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <!-- Single Feature Start -->
+                        <div class="single-feature mb-30">
+                            <div class="feature-image">
+                                <img src="./assets/images/icons/feature-3.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="title">GESTION D'ECLAIRAGE</h4>
+                                <p class="short-desc">MEDLIGHT est attentif à installer dans ses appareils des composants électroniques européen afin d'apporter des solutions en économie d'énergie: Détection de luminosité, présence DALI et DMX <a href="https://yrys.online/">www.yrys.online</a></p>
+                            </div>
+                        </div>
+                        <!-- Single Feature End -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Features section end-->
+
+
+
+        <!--Blog section start-->
+        <div class="blog-section section pt-65 pt-lg-45 pt-md-35 pt-sm-20 pt-xs-15 pb-65 pb-lg-45 pb-md-35 pb-sm-25 pb-xs-15">
+            <div class="container">
+
+                <div class="row mb-50 mb-xs-20">
+                    <div class="col">
+                        <div class="section-title text-center">
+                            <h2>Champs D'Application</h2>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+        <!--Blog section end-->
+
+
+        <!-- Testimonial Area Start -->
+        <div class="testimonial-section section pb-80 pb-lg-60 pb-md-50 pb-sm-40 pb-xs-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="testimonial-wrap bg-gray-two pt-45 pb-30">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <div class="testimonial-wrapper section-space--inner">
+                                        <div class="testimonial-slider-content">
+                                            <div class="item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-5">
+                                                        <div class="testimonial-image">
+                                                            
+                                                                <i class="fas fa-chalkboard-teacher" style="font-size:100px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="testimonial testimonial-style-2 gutter-item">
+                                                            <div class="testimonial-inner">
+                                                                <div class="testimonial-author">
+                                                                    <div class="author-info">
+                                                                        <h4>BUREAUX ET ESPACES DE TRAVAIL</h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-description">
+                                                                    <blockquote class="testimonials-text">
+                                                                        <p>“Un bon éclairage sur le lieu de travail augmente la concentration, prévient la fatigue et aide à obtenir un meilleur résultat”</p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-5">
+                                                        <div class="testimonial-image">
+                                                            
+                                                                <i class="fas fa-school" style="font-size:100px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="testimonial testimonial-style-2 gutter-item">
+                                                            <div class="testimonial-inner">
+                                                                <div class="testimonial-author">
+                                                                    <div class="author-info">
+                                                                        <h4>ÉTABLISSEMENTS SCOLAIRES</h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-description">
+                                                                    <blockquote class="testimonials-text">
+                                                                        <p>“L'élève doit jouir tout au long de sa journée d'un éclairage pur et confortable lui permettant une meilleure assimilation”</p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-5">
+                                                        <div class="testimonial-image">
+                                                            
+                                                                <i class="fas fa-industry" style="font-size:100px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="testimonial testimonial-style-2 gutter-item">
+                                                            <div class="testimonial-inner">
+                                                                <div class="testimonial-author">
+                                                                    <div class="author-info">
+                                                                        <h4>ÉTABLISSEMENTS INDUSTRIELS</h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-description">
+                                                                    <blockquote class="testimonials-text">
+                                                                        <p>“Avoir le bon éclairage est un facteur clé pour permettre aux industries d'améliorer la qualité de la production, d'augmenter la sécurité, le confort des employés sans oublier l'économie d'énergie”</p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-5">
+                                                        <div class="testimonial-image">
+                                                            
+                                                                <i class="far fa-hospital" style="font-size:100px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="testimonial testimonial-style-2 gutter-item">
+                                                            <div class="testimonial-inner">
+                                                                <div class="testimonial-author">
+                                                                    <div class="author-info">
+                                                                        <h4>ÉTABLISSEMENTS MÉDICAUX</h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-description">
+                                                                    <blockquote class="testimonials-text">
+                                                                        <p>“Un bon éclairage permet non seulement de garantir le bien être des patients mais aussi une meilleure qualité de travail des soignants”</p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-5">
+                                                        <div class="testimonial-image">
+                                                            
+                                                                <i class="fas fa-shopping-cart" style="font-size:100px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="testimonial testimonial-style-2 gutter-item">
+                                                            <div class="testimonial-inner">
+                                                                <div class="testimonial-author">
+                                                                    <div class="author-info">
+                                                                        <h4>GRANDES SURFACES</h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-description">
+                                                                    <blockquote class="testimonials-text">
+                                                                        <p>“Un éclairage bien étudié fait partie de la stratégie commerciale afin d'inciter d'avantage à la consommation et d'améliorer la décoration des rayons”</p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-5">
+                                                        <div class="testimonial-image">
+                                                            
+                                                                <i class="far fa-building" style="font-size:100px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="testimonial testimonial-style-2 gutter-item">
+                                                            <div class="testimonial-inner">
+                                                                <div class="testimonial-author">
+                                                                    <div class="author-info">
+                                                                        <h4>ÉCLAIRAGE ARCHITECTURAL</h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-description">
+                                                                    <blockquote class="testimonials-text">
+                                                                        <p>“L’éclairage joue avec nos perceptions, crée des sensations et expériences uniques et peut changer complètement un design”</p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-5">
+                                                        <div class="testimonial-image">
+                                                            
+                                                                <i class="fas fa-road" style="font-size:100px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="testimonial testimonial-style-2 gutter-item">
+                                                            <div class="testimonial-inner">
+                                                                <div class="testimonial-author">
+                                                                    <div class="author-info">
+                                                                        <h4>ESPACE ROUTIER</h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-description">
+                                                                    <blockquote class="testimonials-text">
+                                                                        <p>“L’éclairage public et son optimisation sont un enjeu majeur d’attractivité, de sécurité mais aussi d’économie pour les collectivités.”</p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-5">
+                                                        <div class="testimonial-image">
+                                                            
+                                                                <i class="fas fa-hotel" style="font-size:100px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="testimonial testimonial-style-2 gutter-item">
+                                                            <div class="testimonial-inner">
+                                                                <div class="testimonial-author">
+                                                                    <div class="author-info">
+                                                                        <h4>HÔTELS, RESTAURANTS ET CAFÉS</h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-description">
+                                                                    <blockquote class="testimonials-text">
+                                                                        <p>“L’éclairage joue un rôle crucial pour donner forme à l’expérience et le ressenti lors de l’aménagement des hôtels, cafés et restaurants”</p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-5">
+                                                        <div class="testimonial-image">
+                                                            
+                                                                <i class="fas fa-futbol" style="font-size:100px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="testimonial testimonial-style-2 gutter-item">
+                                                            <div class="testimonial-inner">
+                                                                <div class="testimonial-author">
+                                                                    <div class="author-info">
+                                                                        <h4>ÉTABLISSEMENTS SPORTIFS</h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-description">
+                                                                    <blockquote class="testimonials-text">
+                                                                        <p>“L'objectif de l'éclairage des infrastructures sportives est d'offrir de bonnes conditions de visibilité aussi bien pour les sportifs et arbitres que pour les spectateurs”</p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial Area End -->
+
+
+
+       
+
+        <!-- Newsletter Section Start -->
+        <div class="newsletter-section section bg-gray-two pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-95 pb-lg-75 pb-md-65 pb-sm-60 pb-xs-50">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="newsletter-content">
+                            <h2>Abonnez-vous à Notre Newsletter</h2>
+                            <p>Vous serez informé(e) de l'actualité de notre entreprise.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="newsletter-wrap">
+                            <div class="newsletter-form">
+                                <form id="mc-form" class="mc-form">
+                                    <input type="email" placeholder="Entrer Votre Email Address ici..." required>
+                                    <button type="submit" value="submit">INSCRIVEZ-VOUS</button>
+                                </form>
+
+                            </div>
+                            <!-- mailchimp-alerts Start -->
+                            <div class="mailchimp-alerts">
+                                <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                                <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                            </div>
+                            <!-- mailchimp-alerts end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter Section End -->
+        <!--Footer section start-->
+        <footer class="footer-section section bg-gray">
+
+            <!--Footer Top start-->
+            <div class="footer-top section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-55 pb-lg-35 pb-md-25 pb-sm-15 pb-xs-10">
+                <div class="container">
+                    <div class="row">
+
+                        <!--Footer Widget start-->
+                        <div class="footer-widget col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                            <h4 class="title"><span class="text">TUNISIE</span></h4>
+                            <p class="mb-15">Route de Tunis km 22,Z.I. El Ghraba, 3043 Sfax Tunisie</p>
+                            <p class="mb-15">+216 74 842 352</p>
+                            <p class="mb-15">contact@medlight.com.tn</p>
+                        </div>
+                        <!--Footer Widget end-->
+
+
+                       <!--Footer Widget start-->
+                       <div class="footer-widget col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                        <h4 class="title"><span class="text">FRANCE</span></h4>
+                        <p class="mb-15">12 allée Joséphine de Beauharnais 95320 Saint Leu La Forêt</p>
+                        <p class="mb-15">+33 (06) 08 47 05 58</p>
+                        <p class="mb-15">dominique.kerbrat@medlight.com.tn</p>
+                       </div>
+                       <!--Footer Widget end-->
+
+                         <!--Footer Widget start-->
+                       <div class="footer-widget col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                        <h4 class="title"><span class="text">ITALIE</span></h4>
+                        <p class="mb-15">via Faggi 21, 29121 Piacenza (PC) Italia</p>
+                        
+                       </div>
+                       <!--Footer Widget end-->
+                       <div class="footer-widget text-lg-right text-left col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                        <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        <a href="#" title="Youtube"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#" title="Vimeo"><i class="fa fa-vimeo-square"></i></a>
+                    </div>
+                       
+                 </div>
+             </div>
+            </div>
+            <!--Footer Top end-->
+
+            <!--Footer bottom start-->
+            <div class="footer-bottom section">
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col-12 ft-border pt-25 pb-25">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="copyright text-left">
+                                        <p>Copyright &copy;2021 <a href="#"><b>Medlights</b></a>. All rights reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Footer bottom end-->
+
+        </footer>
+        <!--Footer section end-->
+        <!-- Modal Area Strat -->
+        <div class="modal fade quick-view-modal-container" id="quick-view-modal-container" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <!-- Product Details Left -->
+                                    <div class="product-details-left">
+                                        <div class="product-details-images">
+                                            <div class="lg-image">
+                                                <img src="./assets/images/product/large-product/l-product-1.jpg" alt="">
+                                                <a href="./assets/images/product/large-product/l-product-1.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="./assets/images/product/large-product/l-product-2.jpg" alt="">
+                                                <a href="./assets/images/product/large-product/l-product-2.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="./assets/images/product/large-product/l-product-3.jpg" alt="">
+                                                <a href="./assets/images/product/large-product/l-product-3.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="./assets/images/product/large-product/l-product-4.jpg" alt="">
+                                                <a href="./assets/images/product/large-product/l-product-4.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="./assets/images/product/large-product/l-product-5.jpg" alt="">
+                                                <a href="./assets/images/product/large-product/l-product-5.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-details-thumbs">
+                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-1.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-2.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-3.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-4.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-5.jpg" alt="product image thumb"></div>
+                                        </div>
+                                    </div>
+                                    <!--Product Details Left -->
+                                </div>
+                                <div class="col-lg-8 col-md-6">
+                                    <!--Product Details Content Start-->
+                                    <div class="product-details-content">
+                                        <!--Product Nav Start-->
+                                        <div class="product-nav">
+                                            <a href="#"><i class="fa fa-angle-left"></i></a>
+                                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                        <!--Product Nav End-->
+                                        <h2>Aliquam lobortis est turpis mauris egestas eget</h2>
+                                        <div class="single-product-reviews">
+                                            <i class="fa fa-star active"></i>
+                                            <i class="fa fa-star active"></i>
+                                            <i class="fa fa-star active"></i>
+                                            <i class="fa fa-star active"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <a class="review-link" href="#">(1 customer review)</a>
+                                        </div>
+                                        <div class="single-product-price">
+                                            <span class="price new-price">$66.00</span>
+                                            <span class="regular-price">$77.00</span>
+                                        </div>
+                                        <div class="product-description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+                                        </div>
+                                        <div class="single-product-quantity">
+                                            <form class="add-quantity" action="#">
+                                                <div class="product-quantity">
+                                                    <input value="1" type="number">
+                                                </div>
+                                                <div class="add-to-link">
+                                                    <button class="btn"><i class="ion-bag"></i>add to cart</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="wishlist-compare-btn">
+                                            <a href="#" class="wishlist-btn">Add to Wishlist</a>
+                                            <a href="#" class="add-compare">Compare</a>
+                                        </div>
+                                        <div class="product-meta">
+                                            <span class="posted-in">
+                                            Categories: 
+                                            <a href="#">Accessories</a>,
+                                            <a href="#">Electronics</a>
+                                        </span>
+                                        </div>
+                                        <div class="single-product-sharing">
+                                            <h3>Share this product</h3>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--Product Details Content End-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Modal Area End -->
+    </div>
+
+    <!-- Placed js at the end of the document so the pages load faster -->
+
+    <!-- All jquery file included here -->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.22&key=AIzaSyDAq7MrCR1A2qIShmjbtLHSKjcEIEBEEwM"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
