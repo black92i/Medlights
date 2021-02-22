@@ -2714,9 +2714,7 @@ ul.cart-items > li {
   text-align: left;
 }
 
-.hero-content-2.center {
-  text-align: center;
-}
+
 
 .hero-content-2.right {
   text-align: right;
@@ -2738,6 +2736,11 @@ ul.cart-items > li {
   text-transform: capitalize;
   color: #151515;
   margin-bottom: 30px;
+  margin-top: 30%;
+}
+
+.product-text {
+  margin-top: 30%;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
