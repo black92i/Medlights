@@ -490,7 +490,7 @@ $('.qtybtn').on('click', function() {
 $('.venobox').venobox({
     border: '10px',
     titleattr: 'data-title',
-    numeratio: true,
+    
     infinigall: true
 });
 /* --------------------------------------------------------
