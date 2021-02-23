@@ -1633,6 +1633,9 @@ ul.cart-items > li {
 
 /*Main Search CSS*/
 /*-- Main Menu --*/
+.main-menu {
+  margin-left: 15%;
+}
 .main-menu > ul {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1661,7 +1664,7 @@ ul.cart-items > li {
 @media only screen and (min-width: 992px) and (max-width: 1499px) {
   .main-menu > ul > li > a {
     padding: 30px 0 30px 0;
-    margin: 0 22px 0 0;
+    margin: 0 14px 0 0;
     font-size: 16px;
   }
 }
